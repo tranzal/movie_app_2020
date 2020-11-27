@@ -11,13 +11,14 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
@@ -38,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://tranzal.github.io/movie_app_2020"
+  "homepage": "http://tranzal.github.io/movie_app_2020/"
 }
